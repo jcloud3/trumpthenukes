@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F5DB4D61EA6859000D0D475 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5DB4D51EA6859000D0D475 /* AppDelegate.swift */; };
+		0F5DB4D81EA6859000D0D475 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0F5DB4D71EA6859000D0D475 /* GameScene.sks */; };
+		0F5DB4DA1EA6859000D0D475 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0F5DB4D91EA6859000D0D475 /* Actions.sks */; };
+		0F5DB4DC1EA6859000D0D475 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5DB4DB1EA6859000D0D475 /* GameScene.swift */; };
+		0F5DB4DE1EA6859000D0D475 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5DB4DD1EA6859000D0D475 /* GameViewController.swift */; };
+		0F5DB4E11EA6859000D0D475 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F5DB4DF1EA6859000D0D475 /* Main.storyboard */; };
+		0F5DB4EE1EA6864D00D0D475 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0F5DB4ED1EA6864D00D0D475 /* Explosion.sks */; };
+		0F5DB4F21EA69AAC00D0D475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F5DB4F11EA69AAC00D0D475 /* Assets.xcassets */; };
+		0F5DB4F41EA79E2A00D0D475 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5DB4F31EA79E2A00D0D475 /* GameOverScene.swift */; };
+		0F6246881EAA6A7900674DA3 /* LevelChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6246871EAA6A7900674DA3 /* LevelChange.swift */; };
+		0FC9AA301EAE310B00CD22FE /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9AA2F1EAE310B00CD22FE /* StartScreen.swift */; };
+		0FF675BD1EB0C99E0025CC95 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF675BC1EB0C99E0025CC95 /* Launch Screen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F5DB4D21EA6859000D0D475 /* Trump vs North Korea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trump vs North Korea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F5DB4D51EA6859000D0D475 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0F5DB4D71EA6859000D0D475 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		0F5DB4D91EA6859000D0D475 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		0F5DB4DB1EA6859000D0D475 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		0F5DB4DD1EA6859000D0D475 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		0F5DB4E01EA6859000D0D475 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0F5DB4E71EA6859000D0D475 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0F5DB4ED1EA6864D00D0D475 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		0F5DB4F11EA69AAC00D0D475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0F5DB4F31EA79E2A00D0D475 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		0F6246871EAA6A7900674DA3 /* LevelChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelChange.swift; sourceTree = "<group>"; };
+		0FC9AA2F1EAE310B00CD22FE /* StartScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
+		0FF675BC1EB0C99E0025CC95 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0F5DB4CF1EA6859000D0D475 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F5DB4C91EA6859000D0D475 = {
+			isa = PBXGroup;
+			children = (
+				0F5DB4D41EA6859000D0D475 /* Trump vs North Korea */,
+				0F5DB4D31EA6859000D0D475 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0F5DB4D31EA6859000D0D475 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0F5DB4D21EA6859000D0D475 /* Trump vs North Korea.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0F5DB4D41EA6859000D0D475 /* Trump vs North Korea */ = {
+			isa = PBXGroup;
+			children = (
+				0F5DB4D51EA6859000D0D475 /* AppDelegate.swift */,
+				0F5DB4D71EA6859000D0D475 /* GameScene.sks */,
+				0F5DB4D91EA6859000D0D475 /* Actions.sks */,
+				0F5DB4DB1EA6859000D0D475 /* GameScene.swift */,
+				0F6246871EAA6A7900674DA3 /* LevelChange.swift */,
+				0F5DB4F31EA79E2A00D0D475 /* GameOverScene.swift */,
+				0F5DB4DD1EA6859000D0D475 /* GameViewController.swift */,
+				0FC9AA2F1EAE310B00CD22FE /* StartScreen.swift */,
+				0FF675BC1EB0C99E0025CC95 /* Launch Screen.storyboard */,
+				0F5DB4DF1EA6859000D0D475 /* Main.storyboard */,
+				0F5DB4F11EA69AAC00D0D475 /* Assets.xcassets */,
+				0F5DB4ED1EA6864D00D0D475 /* Explosion.sks */,
+				0F5DB4E71EA6859000D0D475 /* Info.plist */,
+			);
+			path = "Trump vs North Korea";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0F5DB4D11EA6859000D0D475 /* Trump vs North Korea */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F5DB4EA1EA6859000D0D475 /* Build configuration list for PBXNativeTarget "Trump vs North Korea" */;
+			buildPhases = (
+				0F5DB4CE1EA6859000D0D475 /* Sources */,
+				0F5DB4CF1EA6859000D0D475 /* Frameworks */,
+				0F5DB4D01EA6859000D0D475 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Trump vs North Korea";
+			productName = "Trump vs North Korea";
+			productReference = 0F5DB4D21EA6859000D0D475 /* Trump vs North Korea.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0F5DB4CA1EA6859000D0D475 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Cloudy;
+				TargetAttributes = {
+					0F5DB4D11EA6859000D0D475 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2E63ZZKAKV;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0F5DB4CD1EA6859000D0D475 /* Build configuration list for PBXProject "Trump vs North Korea" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0F5DB4C91EA6859000D0D475;
+			productRefGroup = 0F5DB4D31EA6859000D0D475 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F5DB4D11EA6859000D0D475 /* Trump vs North Korea */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F5DB4D01EA6859000D0D475 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5DB4E11EA6859000D0D475 /* Main.storyboard in Resources */,
+				0F5DB4D81EA6859000D0D475 /* GameScene.sks in Resources */,
+				0F5DB4F21EA69AAC00D0D475 /* Assets.xcassets in Resources */,
+				0F5DB4DA1EA6859000D0D475 /* Actions.sks in Resources */,
+				0F5DB4EE1EA6864D00D0D475 /* Explosion.sks in Resources */,
+				0FF675BD1EB0C99E0025CC95 /* Launch Screen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F5DB4CE1EA6859000D0D475 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F5DB4DC1EA6859000D0D475 /* GameScene.swift in Sources */,
+				0F6246881EAA6A7900674DA3 /* LevelChange.swift in Sources */,
+				0FC9AA301EAE310B00CD22FE /* StartScreen.swift in Sources */,
+				0F5DB4DE1EA6859000D0D475 /* GameViewController.swift in Sources */,
+				0F5DB4F41EA79E2A00D0D475 /* GameOverScene.swift in Sources */,
+				0F5DB4D61EA6859000D0D475 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0F5DB4DF1EA6859000D0D475 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0F5DB4E01EA6859000D0D475 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0F5DB4E81EA6859000D0D475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F5DB4E91EA6859000D0D475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F5DB4EB1EA6859000D0D475 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2E63ZZKAKV;
+				INFOPLIST_FILE = "Trump vs North Korea/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.dom-production.Trump-vs-North-Korea";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0F5DB4EC1EA6859000D0D475 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2E63ZZKAKV;
+				INFOPLIST_FILE = "Trump vs North Korea/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "tech.dom-production.Trump-vs-North-Korea";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F5DB4CD1EA6859000D0D475 /* Build configuration list for PBXProject "Trump vs North Korea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F5DB4E81EA6859000D0D475 /* Debug */,
+				0F5DB4E91EA6859000D0D475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0F5DB4EA1EA6859000D0D475 /* Build configuration list for PBXNativeTarget "Trump vs North Korea" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F5DB4EB1EA6859000D0D475 /* Debug */,
+				0F5DB4EC1EA6859000D0D475 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0F5DB4CA1EA6859000D0D475 /* Project object */;
+}
