@@ -17,12 +17,13 @@
 		0F5DB4F21EA69AAC00D0D475 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F5DB4F11EA69AAC00D0D475 /* Assets.xcassets */; };
 		0F5DB4F41EA79E2A00D0D475 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5DB4F31EA79E2A00D0D475 /* GameOverScene.swift */; };
 		0F6246881EAA6A7900674DA3 /* LevelChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F6246871EAA6A7900674DA3 /* LevelChange.swift */; };
+		0F737CD31EB7C0960079F16A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F737CD21EB7C0960079F16A /* Default-568h@2x.png */; };
 		0FC9AA301EAE310B00CD22FE /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC9AA2F1EAE310B00CD22FE /* StartScreen.swift */; };
 		0FF675BD1EB0C99E0025CC95 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FF675BC1EB0C99E0025CC95 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0F5DB4D21EA6859000D0D475 /* Trump vs North Korea.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trump vs North Korea.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F5DB4D21EA6859000D0D475 /* Trump the Nukes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Trump the Nukes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F5DB4D51EA6859000D0D475 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F5DB4D71EA6859000D0D475 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		0F5DB4D91EA6859000D0D475 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
@@ -34,6 +35,7 @@
 		0F5DB4F11EA69AAC00D0D475 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F5DB4F31EA79E2A00D0D475 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
 		0F6246871EAA6A7900674DA3 /* LevelChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelChange.swift; sourceTree = "<group>"; };
+		0F737CD21EB7C0960079F16A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		0FC9AA2F1EAE310B00CD22FE /* StartScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
 		0FF675BC1EB0C99E0025CC95 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +54,8 @@
 		0F5DB4C91EA6859000D0D475 = {
 			isa = PBXGroup;
 			children = (
-				0F5DB4D41EA6859000D0D475 /* Trump vs North Korea */,
+				0F737CD21EB7C0960079F16A /* Default-568h@2x.png */,
+				0F5DB4D41EA6859000D0D475 /* Trump the Nukes */,
 				0F5DB4D31EA6859000D0D475 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -60,12 +63,12 @@
 		0F5DB4D31EA6859000D0D475 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0F5DB4D21EA6859000D0D475 /* Trump vs North Korea.app */,
+				0F5DB4D21EA6859000D0D475 /* Trump the Nukes.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0F5DB4D41EA6859000D0D475 /* Trump vs North Korea */ = {
+		0F5DB4D41EA6859000D0D475 /* Trump the Nukes */ = {
 			isa = PBXGroup;
 			children = (
 				0F5DB4D51EA6859000D0D475 /* AppDelegate.swift */,
@@ -82,15 +85,16 @@
 				0F5DB4ED1EA6864D00D0D475 /* Explosion.sks */,
 				0F5DB4E71EA6859000D0D475 /* Info.plist */,
 			);
+			name = "Trump the Nukes";
 			path = "Trump vs North Korea";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0F5DB4D11EA6859000D0D475 /* Trump vs North Korea */ = {
+		0F5DB4D11EA6859000D0D475 /* Trump the Nukes */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F5DB4EA1EA6859000D0D475 /* Build configuration list for PBXNativeTarget "Trump vs North Korea" */;
+			buildConfigurationList = 0F5DB4EA1EA6859000D0D475 /* Build configuration list for PBXNativeTarget "Trump the Nukes" */;
 			buildPhases = (
 				0F5DB4CE1EA6859000D0D475 /* Sources */,
 				0F5DB4CF1EA6859000D0D475 /* Frameworks */,
@@ -100,9 +104,9 @@
 			);
 			dependencies = (
 			);
-			name = "Trump vs North Korea";
+			name = "Trump the Nukes";
 			productName = "Trump vs North Korea";
-			productReference = 0F5DB4D21EA6859000D0D475 /* Trump vs North Korea.app */;
+			productReference = 0F5DB4D21EA6859000D0D475 /* Trump the Nukes.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -117,12 +121,12 @@
 				TargetAttributes = {
 					0F5DB4D11EA6859000D0D475 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = 2E63ZZKAKV;
+						DevelopmentTeam = MG4K94VFU9;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
-			buildConfigurationList = 0F5DB4CD1EA6859000D0D475 /* Build configuration list for PBXProject "Trump vs North Korea" */;
+			buildConfigurationList = 0F5DB4CD1EA6859000D0D475 /* Build configuration list for PBXProject "Trump the Nukes" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -135,7 +139,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0F5DB4D11EA6859000D0D475 /* Trump vs North Korea */,
+				0F5DB4D11EA6859000D0D475 /* Trump the Nukes */,
 			);
 		};
 /* End PBXProject section */
@@ -150,6 +154,7 @@
 				0F5DB4F21EA69AAC00D0D475 /* Assets.xcassets in Resources */,
 				0F5DB4DA1EA6859000D0D475 /* Actions.sks in Resources */,
 				0F5DB4EE1EA6864D00D0D475 /* Explosion.sks in Resources */,
+				0F737CD31EB7C0960079F16A /* Default-568h@2x.png in Resources */,
 				0FF675BD1EB0C99E0025CC95 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,11 +288,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2E63ZZKAKV;
+				DEVELOPMENT_TEAM = MG4K94VFU9;
 				INFOPLIST_FILE = "Trump vs North Korea/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tech.dom-production.Trump-vs-North-Korea";
+				PRODUCT_BUNDLE_IDENTIFIER = cloudy.TrumptheNukes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -298,11 +303,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 2E63ZZKAKV;
+				DEVELOPMENT_TEAM = MG4K94VFU9;
 				INFOPLIST_FILE = "Trump vs North Korea/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "tech.dom-production.Trump-vs-North-Korea";
+				PRODUCT_BUNDLE_IDENTIFIER = cloudy.TrumptheNukes;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -312,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0F5DB4CD1EA6859000D0D475 /* Build configuration list for PBXProject "Trump vs North Korea" */ = {
+		0F5DB4CD1EA6859000D0D475 /* Build configuration list for PBXProject "Trump the Nukes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0F5DB4E81EA6859000D0D475 /* Debug */,
@@ -321,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0F5DB4EA1EA6859000D0D475 /* Build configuration list for PBXNativeTarget "Trump vs North Korea" */ = {
+		0F5DB4EA1EA6859000D0D475 /* Build configuration list for PBXNativeTarget "Trump the Nukes" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0F5DB4EB1EA6859000D0D475 /* Debug */,

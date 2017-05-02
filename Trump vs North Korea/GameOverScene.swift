@@ -1,8 +1,8 @@
 //
 //  GameOverScene.swift
-//  Trump vs North Korea
+//  Trump the Nukes
 //
-//  Created by mtech on 4/19/17.
+//  Created by jcloud on 4/19/17.
 //  Copyright © 2017 Cloudy. All rights reserved.
 //
 

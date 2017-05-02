@@ -1,8 +1,8 @@
 //
 //  GameScene.swift
-//  Trump vs North Korea
+//  Trump the Nukes
 //
-//  Created by mtech on 4/18/17.
+//  Created by jcloud on 4/18/17.
 //  Copyright © 2017 Cloudy. All rights reserved.
 //
 
@@ -300,7 +300,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 realDest = CGPoint(x: laser.position.x, y: self.size.height)
             }
             
-            let actionMove = SKAction.move(to: realDest, duration: Double(distance(xpoint: player.position, ypoint: realDest)/CGFloat(115.0)))
+            let actionMove = SKAction.move(to: realDest, duration: Double(distance(xpoint: player.position, ypoint: realDest)/CGFloat(90.0)))
             let actionMoveDone = SKAction.run(){
                 SKAction.removeFromParent()
                 self.shotCount=self.shotCount-1

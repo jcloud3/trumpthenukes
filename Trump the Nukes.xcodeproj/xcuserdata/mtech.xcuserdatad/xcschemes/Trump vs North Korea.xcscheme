@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "0F5DB4D11EA6859000D0D475"
-               BuildableName = "Trump vs North Korea.app"
-               BlueprintName = "Trump vs North Korea"
-               ReferencedContainer = "container:Trump vs North Korea.xcodeproj">
+               BuildableName = "Trump the Nukes.app"
+               BlueprintName = "Trump the Nukes"
+               ReferencedContainer = "container:Trump the Nukes.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0F5DB4D11EA6859000D0D475"
-            BuildableName = "Trump vs North Korea.app"
-            BlueprintName = "Trump vs North Korea"
-            ReferencedContainer = "container:Trump vs North Korea.xcodeproj">
+            BuildableName = "Trump the Nukes.app"
+            BlueprintName = "Trump the Nukes"
+            ReferencedContainer = "container:Trump the Nukes.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0F5DB4D11EA6859000D0D475"
-            BuildableName = "Trump vs North Korea.app"
-            BlueprintName = "Trump vs North Korea"
-            ReferencedContainer = "container:Trump vs North Korea.xcodeproj">
+            BuildableName = "Trump the Nukes.app"
+            BlueprintName = "Trump the Nukes"
+            ReferencedContainer = "container:Trump the Nukes.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "0F5DB4D11EA6859000D0D475"
-            BuildableName = "Trump vs North Korea.app"
-            BlueprintName = "Trump vs North Korea"
-            ReferencedContainer = "container:Trump vs North Korea.xcodeproj">
+            BuildableName = "Trump the Nukes.app"
+            BlueprintName = "Trump the Nukes"
+            ReferencedContainer = "container:Trump the Nukes.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

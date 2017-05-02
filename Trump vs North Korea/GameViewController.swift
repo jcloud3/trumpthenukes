@@ -1,8 +1,8 @@
 //
 //  GameViewController.swift
-//  Trump vs North Korea
+//  Trump the Nukes
 //
-//  Created by mtech on 4/18/17.
+//  Created by jcloud on 4/18/17.
 //  Copyright © 2017 Cloudy. All rights reserved.
 //
 
@@ -20,8 +20,8 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
         let scene = StartScreen(size: view.bounds.size)
         let skView = view as! SKView
-        skView.showsFPS = true
-        skView.showsNodeCount = true
+        skView.showsFPS = false
+        skView.showsNodeCount = false
         skView.ignoresSiblingOrder = true
         scene.scaleMode = .resizeFill
         skView.presentScene(scene)
