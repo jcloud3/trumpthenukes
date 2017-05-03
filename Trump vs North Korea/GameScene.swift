@@ -233,12 +233,13 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         
         
+        
         let offset = touchLocation - laser.position
         
         
         if (shotCount<maxShots){
-            addChild(laser)
-            shotCount=shotCount+1
+            
+            
         laser.physicsBody = SKPhysicsBody(rectangleOf: laser.size)
         laser.physicsBody?.isDynamic = true
         laser.physicsBody?.categoryBitMask = PhysicsCategory.laser
@@ -256,7 +257,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
             if realDest.x != laser.position.x{
                 let slope = realDest/laser.position
-            
+                //laser.zRotation = 3.142-atan(slope)
+                //print("\(laser.zRotation)")
         
         let b = -(realDest.x*slope-realDest.y)
             if slope==0 && realDest.x<0{
@@ -310,6 +312,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 else{
                     realDest = CGPoint(x: self.size.width, y: 0)
                 }
+                
                 }
             }
             else {
@@ -321,6 +324,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 SKAction.removeFromParent()
                 self.shotCount=self.shotCount-1
             }
+            
+            addChild(laser)
+            shotCount=shotCount+1
         laser.run(SKAction.sequence([actionMove, actionMoveDone]))
             
         }

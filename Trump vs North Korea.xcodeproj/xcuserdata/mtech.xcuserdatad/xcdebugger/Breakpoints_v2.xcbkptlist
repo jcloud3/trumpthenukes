@@ -35,5 +35,96 @@
             landmarkType = "3">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Trump vs North Korea/GameViewController.swift"
+            timestampString = "515528640.78581"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Trump_vs_North_Korea.GameViewController.__deallocating_deinit"
+                  moduleName = "Trump vs North Korea"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mtech/Downloads/Missles/Trump/Trump%20vs%20North%20Korea/Trump%20vs%20North%20Korea/GameViewController.swift"
+                  timestampString = "515528642.717956"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Trump_vs_North_Korea.GameViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Trump_vs_North_Korea.GameViewController"
+                  moduleName = "Trump vs North Korea"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mtech/Downloads/Missles/Trump/Trump%20vs%20North%20Korea/Trump%20vs%20North%20Korea/GameViewController.swift"
+                  timestampString = "515528642.726042"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "118">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Trump_vs_North_Korea.GameViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; Trump_vs_North_Korea.GameViewController"
+                  moduleName = "Trump vs North Korea"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mtech/Downloads/Missles/Trump/Trump%20vs%20North%20Korea/Trump%20vs%20North%20Korea/GameViewController.swift"
+                  timestampString = "515528642.729752"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Trump_vs_North_Korea.GameViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Trump_vs_North_Korea.GameViewController&gt;"
+                  moduleName = "Trump vs North Korea"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mtech/Downloads/Missles/Trump/Trump%20vs%20North%20Korea/Trump%20vs%20North%20Korea/GameViewController.swift"
+                  timestampString = "515528642.734278"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Trump_vs_North_Korea.GameViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Trump_vs_North_Korea.GameViewController&gt;"
+                  moduleName = "Trump vs North Korea"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mtech/Downloads/Missles/Trump/Trump%20vs%20North%20Korea/Trump%20vs%20North%20Korea/GameViewController.swift"
+                  timestampString = "515528642.737556"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "105">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>
