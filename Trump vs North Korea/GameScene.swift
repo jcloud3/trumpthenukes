@@ -149,20 +149,21 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         }
         let bonus = (random(min: 0.0, max: 100.0))
         let missile: SKSpriteNode
-        if bonus < 3.3{
+        if bonus < 2{
             missile = SKSpriteNode(imageNamed: "Rapid Fire")
             missile.name = "RF"
         }
-        else if bonus < 6.6{
+        else if bonus < 4{
             missile = SKSpriteNode(imageNamed: "Spread")
             missile.name = "S"
         }
-        else if bonus < 10.0{
+        else if bonus < 6{
             missile = SKSpriteNode(imageNamed: "Health")
             missile.name = "H"
         }
         else{
             missile = SKSpriteNode(imageNamed: "NK")
+            missile.name = "NK"
         }
         
         let actualx = random(min: missile.size.width/2, max: size.width - missile.size.width/2)
@@ -329,6 +330,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     func laserDidCollideWithMissile(laser: SKSpriteNode, missile: SKSpriteNode) {
         if missile.name == "H"{
             health += 1
+            healthLabel.removeFromParent()
+            addChild(healthLabel)
         }
         else if missile.name == "RF"{
             
